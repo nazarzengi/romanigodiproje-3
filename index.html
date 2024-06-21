@@ -38,16 +38,21 @@
         .section {
             margin-bottom: 30px;
         }
-        .image-container {
+       .image-container {
             text-align: center;
             margin-bottom: 20px;
         }
-        .image-container img {
+       .image-container img {
             max-width: 80%;
             height: auto;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .caption {
+            text-align: center;
+            font-weight: bold;
+            color: black;
+            
         .references {
             margin-top: 40px;
         }
@@ -87,6 +92,16 @@
         .romani-godi {
             width: 100px;
         }
+            .footer-content {
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .footer-content img {
+            display: block;
+            margin: 10px auto;
     </style>
 </head>
 <body>
@@ -107,7 +122,7 @@
     <p>Roman ve Sinti halkı, Auschwitz, Bergen-Belsen, Dachau gibi toplama kamplarına gönderildi. Auschwitz II-Birkenau'da özel bir "Çingene Kampı" (Zigeunerlager) kuruldu. Bu kampta, Roman ve Sinti'ler üzerinde tıbbi deneyler yapıldı ve birçoğu gaz odalarında öldürüldü <a href="#source5" class="important">(United States Holocaust Memorial Museum)</a>.</p>
     <div class="image-container">
         <img src="images/auschwitz-5059392_1920.jpg" alt="Auschwitz II-Birkenau"/>
-        <p class="caption" text-align:"center"><b>Auschwitz II-Birkenau'daki Çingene Kampı</b></p>
+        <p class="caption">Auschwitz II-Birkenau'daki Çingene Kampı</p>
     </div>
     <p>- Auschwitz II-Birkenau: 1944 yılında "Çingene Kampı" kapatıldı ve burada kalan yaklaşık 3.000 Roman ve Sinti gaz odalarında öldürüldü. Bu katliam, sessiz çığlıkların ve derin acının simgesidir.<br>
     - Diğer Kamplar: Birçok Roman ve Sinti, Treblinka, Sobibor ve Chelmno gibi ölüm kamplarında da katledildi.</p>
@@ -156,12 +171,14 @@
         <li id="source5"><a href="https://example.com" class="reference-link">United States Holocaust Memorial Museum. "Holocaust Encyclopedia: Romani." ushmm.org.</a></li>
         <li id="source6"><a href="https://example.com" class="reference-link">European Roma Rights Centre. "Roma Rights." errc.org.</a></li>
     </ul>
-    <footer>
-        <div class="logolar">
-             <p class="bold">&copy; 2024 Romani Godi Derneği. Tüm hakları saklıdır.</p><br><br><br>
-            <img src="images/romani_godi_logo.png" width="120" alt="Romani Godi" class="romani-godi">
-        </div>
-    </footer>
+</div>
+    <div class="logolar">
+    <img src="images/romani-godi.png" alt="Romani Godi Logo" class="romani-godi">
+</div>
+
+<div class="footer-content">
+    <p>© 2024 Romani Godi Derneği. Tüm hakları saklıdır.</p>
+    <img src="images/romani-godi.png" alt="Romani Godi Logo" class="romani-godi">
 </div>
 </body>
 </html>
